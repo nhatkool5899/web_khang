@@ -1,0 +1,60 @@
+@keyframes scrollHeader {
+    0%{transform: translateY(-20px); opacity: 0.5;}
+    100%{transform: translateY(0px); background: var(--primary-color);opacity: 1;}
+}
+@keyframes scrollSearch {
+    0%{transform: translateY(-30px); opacity: 0.5;}
+    100%{transform: translateY(0px); opacity: 1;}
+}
+
+@keyframes fadeTop {
+    0%{transform: translateY(-10px); opacity: 0;}
+    100%{transform: translateY(0px); opacity: 1;}
+}
+@keyframes fadeBottom {
+    0%{transform: translateY(10px); opacity: 0;}
+    100%{transform: translateY(0px); opacity: 1;}
+}
+
+@keyframes fadeTopOut {
+    0%{transform: translateY(0px); opacity: 1;}
+    100%{transform: translateY(-10px); opacity: 0;}
+}
+@keyframes fadeBottomOut {
+    0%{transform: translateY(0px); opacity: 1;}
+    100%{transform: translateY(10px); opacity: 0;}
+}
+
+@keyframes fadeRight {
+    0%{transform: translateX(50px); opacity: 0;}
+    100%{transform: translateX(0px); opacity: 1;}
+}
+
+@keyframes showMenu {
+	from {
+		opacity: 0;
+		transform: translateY(-5%);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes zoomIn {
+    from {
+		transform: scale(1) rotate(-35deg);
+        color: #fff;
+	}
+	to {
+        transform: scale(1.3) rotate(-35deg);
+        color: #e3dc85;
+	}
+}
+
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-10px);}
+	60% {transform: translateY(-5px);}
+}
